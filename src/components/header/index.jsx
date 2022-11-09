@@ -12,11 +12,23 @@ const Header = () => {
       </div>
       <div className="header__navigation">
         <ul>
-          <li>Electric Skateboards</li>
-          <li>Electric Scooters</li>
-          <li>Accessories</li>
-          <li>Gift Card</li>
-          <li>More Info</li>
+          <li>
+            <a href="/">
+              Electric Skateboards
+            </a>
+          </li>
+          <li>
+            <a href="/">Electric Scooters</a>
+          </li>
+          <li>
+            <a href="/">Accessories</a>
+          </li>
+          <li>
+            <a href="/">Gift Card</a>
+          </li>
+          <li>
+            <a href="/">More Info</a>
+          </li>
         </ul>
       </div>
       <div className="header__icons">

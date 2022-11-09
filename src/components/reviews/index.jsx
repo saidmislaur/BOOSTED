@@ -29,8 +29,9 @@ const Reviews = () => {
   return (
     <div className="reviews">
       <div className="reviews__cards">
-      {reviews.map(items => (
+      {reviews.map((items, i) => (
         <ReviwsCard 
+          key={i}
           image={items.image} 
           title={items.title}
           text={items.text}  
