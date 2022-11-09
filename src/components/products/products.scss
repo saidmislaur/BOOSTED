@@ -1,0 +1,25 @@
+.products {
+  padding-right: 25px;
+  &__cart {
+    text-align: center;
+  }
+  img {
+    margin-left: 15px;
+  }
+  &__name {
+    font-size: 14px;
+    line-height: 18px;
+    color: #FF4A32;
+    display: block;
+  }
+  &__price {
+    font-size: 14px;
+    line-height: 18px;
+    color: #373737;
+    display: block;
+  }
+}
+
+.slick-slide img {
+  margin-left: 15px !important; 
+} 

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+}
+
+button {
+  padding: 5px 47px;
+  background: #FF4A32;
+  border-radius: 35px;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.line {
+  height: 66px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 0px 10px rgba(41, 44, 61, 0.34);
+  border-radius: 0px;
+}

@@ -1,0 +1,27 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.card { 
+  position: relative;
+  &__text {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    color: white;
+    text-align: center;
+
+    h5 {
+      font-size: 25px;
+      line-height: 30px;
+    }
+    span {
+      font-size: 18px;
+      line-height: 23px;
+      display: inline-block;
+      margin-top: 15px;
+    }
+  }
+}

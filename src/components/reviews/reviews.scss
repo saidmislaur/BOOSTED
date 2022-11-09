@@ -1,0 +1,29 @@
+.reviews {
+  background: #000000;
+  padding: 35px 60px;
+  color: white;
+  margin-top: 30px;
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__card {
+    width: 270px;
+    text-align: center;
+    h2 {
+      font-weight: 700;
+      font-size: 31px;
+      line-height: 36px;
+      color: #FFFFFF;
+      margin-top: 5px;
+    }
+    span {
+      font-size: 15px;
+      line-height: 22px;
+      margin-top: 25px;
+      display: inline-block;
+    }
+  }
+}

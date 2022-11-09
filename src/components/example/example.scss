@@ -1,0 +1,30 @@
+.example {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  img {
+    margin-left: 20px;
+  }
+  &__text {
+    display: inline-block;
+    width: 340px;
+    margin-left: 40px;
+    h2 {
+      font-size: 32px;
+      line-height: 38px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 22px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 18px;
+    }
+    button {
+      margin: 0px;
+      padding: 5px 16px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.brands {
+  background-color: black;
+  padding: 18px 190px;
+
+  &__img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
