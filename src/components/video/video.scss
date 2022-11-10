@@ -13,8 +13,14 @@
 
 @media screen and (max-width: 960px) {
   .video {
+    padding-left: 10px;
+    padding-right: 30px;
     iframe {
       margin-bottom: 20px;
     }
   }
+
+  .slick-slide img {
+    display: inline;
+}
 }

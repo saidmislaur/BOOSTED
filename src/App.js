@@ -21,7 +21,6 @@ function App() {
       <Gallery />
       <Video />
       <Products />
-      <div className="line"></div>
       <Reviews />
       <Footer />
     </div>
