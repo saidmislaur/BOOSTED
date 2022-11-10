@@ -15,7 +15,7 @@ const Gallery = () => {
         status="IN STOCK"
       />
       <Card 
-        img="./img/Rectangle (2).png"
+        img="./img/Rectangle.png"
         name="Shop Boosted Mini"
         status="IN STOCK"
       />

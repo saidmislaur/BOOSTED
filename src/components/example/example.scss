@@ -6,6 +6,10 @@
   padding-bottom: 45px;
   img {
     margin-left: 20px;
+
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
   }
   &__text {
     display: inline-block;

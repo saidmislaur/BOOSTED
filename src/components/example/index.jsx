@@ -7,7 +7,7 @@ const Example = () => {
   return (
     <div className="example">
       
-        <img src="./img/exampleOne.png" alt="" />
+        <img src="./img/6hwVrToK.webp" alt="" />
         <img src="./img/exampleTwo.png" alt="" />
      
       <div className="example__text">
