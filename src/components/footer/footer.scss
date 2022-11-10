@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding: 50px 130px;
+  flex-wrap: wrap;
 
   &__explore {
     h3 {
@@ -60,5 +61,15 @@
     img {
       margin-right: 6px;
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 50px 30px;
+  }
+
+  .short-info {
+    padding: 20px 10px;
   }
 }

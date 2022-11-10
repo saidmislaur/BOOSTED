@@ -8,3 +8,28 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 960px) {
+  .brands {
+    &__img {
+      flex-wrap: wrap;
+      text-align: center;
+      align-items: center;
+      img {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) { 
+  .brands {
+    &__img {
+      justify-content: center;
+
+      img {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}

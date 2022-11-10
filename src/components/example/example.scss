@@ -28,3 +28,17 @@
     }
   }
 }
+
+@media screen and (max-width: 960px) {
+  .example {
+    img {
+      margin-left: 0px;
+    }
+    flex-wrap: wrap;
+
+    &__text {
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+  }
+}

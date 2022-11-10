@@ -28,3 +28,17 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .info {
+    &__text {
+      width: inherit;
+    }
+    &__images {
+      img {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+  }
+}

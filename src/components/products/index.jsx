@@ -41,12 +41,12 @@ const Products = () => {
       price: "$20.00",
     },
     {
-      image: "./img/products/prod1.png",
+      image: "./img/products/prod3.png",
       name: "Rev Tube",
       price: "$16.00",
     },
     {
-      image: "./img/products/prod1.png",
+      image: "./img/products/prod6.png",
       name: "Rev Tube",
       price: "$16.00",
     },

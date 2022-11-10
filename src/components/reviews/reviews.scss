@@ -7,6 +7,7 @@
   &__cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   &__card {
@@ -26,4 +27,12 @@
       display: inline-block;
     }
   }
+}
+
+@media screen and (max-width: 600px) {
+ .reviews {
+    &__card {
+      margin-bottom: 10px;
+    }
+ }
 }
